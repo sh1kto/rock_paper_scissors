@@ -15,7 +15,7 @@ while run:
     print(f'Computer: {computer}')
 
     if player == computer:
-        print('You Tie!')
+        print('Tie!')
     elif player == 'rock' and computer == 'paper':
         print('You Lose!')
     elif player == 'paper' and computer == 'scissors':
